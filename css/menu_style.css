@@ -1,0 +1,19 @@
+nav ul {
+    list-style: none;
+}
+nav ul ul {
+    position : absolute;
+    padding : 10px;
+    display : none;
+}
+nav ul li {
+    float : left;
+    padding : 5px;
+}
+
+nav ul li ul li{
+    float : none;
+}
+nav ul li:hover>ul{
+    display: block;
+}
